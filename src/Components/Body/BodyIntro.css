@@ -1,12 +1,12 @@
 .intro-header {
   color: #006ca8;
   font-weight: bold;
-  font-size: 4rem;
+  font-size: 3.5rem;
   word-wrap: break-word;
   text-align: left;
 }
 .intro-section-1 {
-  width: 40%;
+  max-width:40%;
 }
 
 .intro-body-container {
@@ -19,7 +19,7 @@
 }
 .intro-body-cta-button {
   margin-top: 1rem;
-  width: 50%;
+  width: 45%;
 }
 .intro-description {
   margin-top: 1rem;
@@ -29,7 +29,8 @@
 /* image section */
 .intro-img img {
   height: auto;
-  width: 20rem;
+  width: 13rem;
+  
   border-radius: 8px;
 }
 .image-container {
@@ -50,6 +51,7 @@
     text-align: center;
   }
   .intro-section-1, .intro-section-1 button{
+    max-width: 100%;
     width: 100%;
   }
   .intro-body-container {
