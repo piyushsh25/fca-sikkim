@@ -29,15 +29,27 @@
 .description-content div{
   text-align: left;
 }
+.body-description-header{
+  text-align: left;
+  font-size: 2rem;
+  margin-top: 10px;
+  margin-left: 6%;
+  font-weight: bold;
+}
 @media only screen and (max-width: 868px) {
   .body-description-container {
-    flex-wrap: wrap-reverse;
+    flex-wrap: wrap;
   }
   .description-img img {
     min-width: 10rem;
     max-width: 20rem;
+    min-height: 10rem;
+    max-height: 20rem;
   }
   .description-content {
     width: 100%;
+  }
+  .body-description-header{
+    margin-left: 8%;
   }
 }
