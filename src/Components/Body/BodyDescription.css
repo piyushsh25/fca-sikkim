@@ -34,8 +34,8 @@
     flex-wrap: wrap-reverse;
   }
   .description-img img {
-    min-width: auto;
-    max-width: 25rem;
+    min-width: 10rem;
+    max-width: 20rem;
   }
   .description-content {
     width: 100%;
