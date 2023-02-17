@@ -8,6 +8,20 @@ export const BodyIntro = () => {
 
             <Button variant="warning" className='navbar-cta-button intro-body-cta-button'>FCAS</Button>
         </div>
-    
+        <div className="image-container">
+            <div className="intro-img">
+                <img src={require("./fca_img1.jpg")} alt="image1" />
+            </div>
+            <div className="intro-img">
+                <img src={require("./fca_img2.jpg")} alt="image1" />
+            </div>
+            <div className="intro-img">
+                <img src={require("./fca_img3.jpg")} alt="image1" />
+            </div>
+            <div className="intro-img">
+                <img src={require("./fca_img4.jpg")} alt="image1" />
+            </div>
+
+        </div>
     </section>
 }
