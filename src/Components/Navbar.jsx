@@ -29,8 +29,8 @@ export function Header() {
                             </Offcanvas.Header>
                             <Offcanvas.Body>
                                 <Nav className="justify-content-end pe-3 navbar-cta">
+                                <Nav.Link href="#action3">About us</Nav.Link>
                                     <Nav.Link href="#action1">Events and News</Nav.Link>
-                                    <Nav.Link href="#action3">About us</Nav.Link>
                                     <Nav.Link href="#action2">Get Involved</Nav.Link>
                                     <Button variant="warning" className='navbar-cta-button'>FCAS</Button>
                                 </Nav>

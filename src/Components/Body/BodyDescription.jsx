@@ -14,18 +14,22 @@ export const BodyDescription = () => {
             description: "We believe in creating a just and equitable society where all individuals have access to fair treatment and the ability to make informed purchasing decisions."
         }
     ]
-    return <section className="body-description-container">
-        <div className="description-img">
-            <img src={require("../assets/fca_img3.jpg")} alt="description fca sikkim" />
-        </div>
-        <div className="description-content">
-            {about.map((item, key) => {
-                return <div key={key}>
-                    <div className="item-title">{item.title}</div>
-                    <div className="item-description">"{`${item.description}`}"</div>
-<hr className="line-break"/>
-                </div>
-            })}
+    return <section>
+        <h1 className="body-description-header">About Us</h1>
+        <div className="body-description-container">
+
+            <div className="description-img">
+                <img src={require("../assets/fca_img3.jpg")} alt="description fca sikkim" />
+            </div>
+            <div className="description-content">
+                {about.map((item, key) => {
+                    return <div key={key}>
+                        <div className="item-title">{item.title}</div>
+                        <div className="item-description">"{`${item.description}`}"</div>
+                        <hr className="line-break" />
+                    </div>
+                })}
+            </div>
         </div>
     </section>
 }
