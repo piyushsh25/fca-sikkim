@@ -1,7 +1,8 @@
+import { Link } from "react-router-dom";
 import "./Footer.css"
 export const Footer = () => {
-    const date=new Date();
-    const year=date.getFullYear()
+    const date = new Date();
+    const year = date.getFullYear()
     return <footer class="footer">
         <div class="footer-left col-md-4 col-sm-6">
             <p class="about">
@@ -33,7 +34,7 @@ export const Footer = () => {
             <img alt="header-img" className="footer-logo" src={require("../assets/logo192.jpg")} />
             <p class="menu">
                 <a href="#"> Home</a> |
-                <a href="#"> About</a> |
+                <Link to="/about">About</Link> |
                 <a href="#"> Services</a> |
                 <a href="#"> Portfolio</a> |
                 <a href="#"> News</a> |

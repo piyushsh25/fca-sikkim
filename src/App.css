@@ -2,6 +2,10 @@
  .App {
   background-color: #ffffff;
 }
+a{
+  text-decoration: none;
+  color: inherit;
+}
 /*
 .App-logo {
   height: 40vmin;
