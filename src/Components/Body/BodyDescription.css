@@ -1,0 +1,43 @@
+.body-description-container {
+  margin: 0 6%;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  display: flex;
+  justify-content: space-around;
+  gap: 10px;
+}
+.description-img img {
+  min-height: 30rem;
+  max-height: 40rem;
+  min-width: 30rem;
+  max-width: 40rem;
+  border-radius: 8px;
+}
+.item-description {
+  word-wrap: break-word;
+}
+.item-title {
+  color: #283847;
+  font-weight: bolder;
+  font-size: 2rem;
+}
+.line-break {
+  background-color: #283847;
+  height: 1.5px;
+  border: none;
+}
+.description-content div{
+  text-align: left;
+}
+@media only screen and (max-width: 868px) {
+  .body-description-container {
+    flex-wrap: wrap-reverse;
+  }
+  .description-img img {
+    min-width: 10rem;
+    max-width: 20rem;
+  }
+  .description-content {
+    width: 100%;
+  }
+}

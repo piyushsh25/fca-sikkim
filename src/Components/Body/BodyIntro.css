@@ -6,14 +6,14 @@
   text-align: left;
 }
 .intro-section-1 {
-  max-width: 40%;
+  width: 40%;
 }
 
 .intro-body-container {
   display: flex;
   justify-content: space-evenly;
   padding: 1% 6%;
-  gap: 10px;
+  gap: 2rem;
   background-color: rgba(220, 220, 220, 0.265);
   position: relative;
 }
@@ -35,18 +35,29 @@
 .image-container {
   display: flex;
   flex-wrap: wrap;
+  gap: 10px;
+}
+.description-content{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  margin-left: 1rem;
+  flex-direction:column ;
 }
 @media only screen and (max-width: 868px) {
-  .intro-section-1 {
+  .intro-section-1 >*{
     text-align: center;
-    max-width: 100%;
+  }
+  .intro-section-1, .intro-section-1 button{
+    width: 100%;
   }
   .intro-body-container {
     flex-direction: column;
   }
   .image-container {
     justify-content: center;
-    gap: 10px;
+
   }
   .intro-header {
     font-size: 3rem;
