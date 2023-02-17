@@ -1,0 +1,25 @@
+.about-us-container {
+  margin-top: 2rem;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+.about-us-image {
+}
+.about-us-header {
+  font-weight: bold;
+  font-size: 2rem;
+  margin-bottom: 2rem;
+  color: #006ca8;
+}
+.about-us-image img {
+  height: auto;
+  height: 30rem;
+  width: auto;
+  max-width: 90vw;
+}
+
+.about-us-content-1,.about-us-content-2{
+    margin: 1rem 6%;
+}

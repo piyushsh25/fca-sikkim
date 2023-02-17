@@ -3,6 +3,7 @@ import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import Offcanvas from 'react-bootstrap/Offcanvas';
+import { Link } from 'react-router-dom';
 import "./Navbar.css"
 export function Header() {
     return (
@@ -11,10 +12,11 @@ export function Header() {
                 <Navbar key={expand} bg="light" expand={expand} className="mb-3">
                     <Container fluid>
                         <div className='header-img-container'>
-                            <img alt='Consumer' className='header-img' src={require('./assets/logo192.jpg')}/>
+                            <img alt='Consumer' className='header-img' src={require('./assets/logo192.jpg')} />
                         </div>
-                        <Navbar.Brand href="#" className='header-title'>FCA SIKKIM</Navbar.Brand>
-
+                        <Link to="/">
+                            <Navbar.Brand className='header-title'>FCA SIKKIM</Navbar.Brand>
+                        </Link>
                         <Navbar.Toggle aria-controls={`offcanvasNavbar-expand-${expand}`} />
                         <Navbar.Offcanvas
                             id={`offcanvasNavbar-expand-${expand}`}
@@ -29,10 +31,12 @@ export function Header() {
                             </Offcanvas.Header>
                             <Offcanvas.Body>
                                 <Nav className="justify-content-end pe-3 navbar-cta">
-                                <Nav.Link href="#action3">About us</Nav.Link>
+                                    <Link to="/about">
+                                       About us
+                                    </Link>
                                     <Nav.Link href="#action1">Events and News</Nav.Link>
                                     <Nav.Link href="#action2">Get Involved</Nav.Link>
-                                    <Button variant="warning" className='navbar-cta-button'>FCAS</Button>
+                                    <Button variant="warning" className='navbar-cta-button'><Link to="/contact-us"> CONTACT US</Link></Button>
                                 </Nav>
                             </Offcanvas.Body>
                         </Navbar.Offcanvas>
