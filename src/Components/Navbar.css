@@ -35,6 +35,9 @@
   font-weight: bold;
   position: relative;
 }
+.nav-container nav{
+  margin-bottom: 0 !important;
+}
 @media (min-width: 1200px) {
   /* overwriting styles */
   .navbar-expand-xl .offcanvas {

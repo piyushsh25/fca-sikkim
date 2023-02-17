@@ -11,7 +11,7 @@ export function Header() {
                 <Navbar key={expand} bg="light" expand={expand} className="mb-3">
                     <Container fluid>
                         <div className='header-img-container'>
-                            <img alt='Consumer' className='header-img' src={require('./logo192.jpg')}/>
+                            <img alt='Consumer' className='header-img' src={require('./assets/logo192.jpg')}/>
                         </div>
                         <Navbar.Brand href="#" className='header-title'>FCA SIKKIM</Navbar.Brand>
 
