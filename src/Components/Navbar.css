@@ -41,3 +41,8 @@
     flex-grow: 0;
   }
 }
+@media only screen and (max-device-width: 571px){
+.header-img{
+  display: none;
+}
+}
