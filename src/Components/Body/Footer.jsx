@@ -41,7 +41,7 @@ export const Footer = () => {
         </div>
         <div>
           <i class="fa fa-envelope"></i>
-          <p> federationconsumersikkim1997@gmail.com</p>
+          <p className="email-footer"> federationconsumersikkim1997@gmail.com</p>
         </div>
       </div>
       <div class="footer-right col-md-4 col-sm-6">

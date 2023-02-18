@@ -109,6 +109,10 @@
 
 .footer .footer-right {
   width: 35%;
+  
+}
+.email-footer{
+  font-size: 12px;
 }
 
 .footer h2 {
