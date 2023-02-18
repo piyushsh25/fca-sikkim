@@ -28,7 +28,7 @@ export const BodyDescription = () => {
           {about.map((item, key) => {
             return (
               <div key={key}>
-                <div className="item-title">{item.title}</div>
+                <div className="item-title-description">{item.title}</div>
                 <div className="item-description">
                   "{`${item.description}`}"
                 </div>

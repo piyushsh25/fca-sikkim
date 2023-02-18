@@ -28,9 +28,8 @@
 }
 /* image section */
 .intro-img img {
-  height: auto;
-  width: 13rem;
-  
+  height: 13rem;
+  width: 17rem;
   border-radius: 8px;
 }
 .image-container {
