@@ -6,14 +6,14 @@ export const ContactUs = () => {
                 <div class="col-md-4">
                     <div class="card">
                         <span class="icon">
-                            <i class="fa fa-phone"></i>
+                            <i class="fa fa-user" aria-hidden="true"></i>
                         </span>
                         <div class="content-wrap">
                             <span class="item-title">
-                                Call us anytime
+                                Mr Suresh Kumar Lama (President)
                             </span>
                             <p class="text">
-                                Phone : (+91) 03592 - 295033
+                                Phone : 97756-95114
                             </p>
                         </div>
                     </div>
@@ -34,6 +34,22 @@ export const ContactUs = () => {
                         </div>
                     </div>
                 </div>
+                <div class="col-md-4">
+                    <div class="card">
+                        <span class="icon">
+                            <i class="fa fa-phone"></i>
+                        </span>
+                        <div class="content-wrap">
+                            <span class="item-title">
+                                Call FCA
+                            </span>
+                            <p class="text">
+                                Phone : (+91) 03592 - 295033 <br />
+                                Mobile: +386 5555 235 / +386 8754 231
+                            </p>
+                        </div>
+                    </div>
+                </div>
 
                 <div class="col-md-4">
                     <div class="card">
@@ -42,10 +58,38 @@ export const ContactUs = () => {
                         </span>
                         <div class="content-wrap">
                             <span class="item-title">
-                                Call us anytime
+                                Mail FCA
                             </span>
                             <p class="text">
-                                Mobile: +386 5555 235 / +386 8754 231
+                                <a href="mailto:federationconsumersikkim1997@gmail.com">federationconsumersikkim1997@gmail.com</a>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card">
+                        <span class="icon">
+                            <i class="fa fa-map-o"></i>
+                        </span>
+                        <div class="content-wrap">
+                            <span class="item-title">
+                                State Helpline Number                        </span>
+                            <p class="text">
+                                Phone : 03592-202675
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card">
+                        <span class="icon">
+                            <i class="fa fa-map-o"></i>
+                        </span>
+                        <div class="content-wrap">
+                            <span class="item-title">
+                              State Complaint Registry                   </span>
+                            <p class="text">
+                               <a href="https://edaakhil.nic.in">Click to Register Online Complaint</a>
                             </p>
                         </div>
                     </div>
@@ -54,5 +98,4 @@ export const ContactUs = () => {
         </div>
 
     </section>
-  );
 };
