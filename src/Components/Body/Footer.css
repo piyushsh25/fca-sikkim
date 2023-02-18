@@ -11,8 +11,8 @@
   right: 0px;
 }
 .footer-logo {
-  width: 7rem;
-  height: 7rem;
+  width: 7.5rem;
+  height: 7.5rem;
 }
 .footer .footer-left,
 .footer .footer-center,
@@ -111,9 +111,8 @@
 
 .footer .footer-right {
   width: 35%;
-  
 }
-.email-footer{
+.email-footer {
   font-size: 12px;
 }
 
