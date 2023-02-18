@@ -1,6 +1,7 @@
 import "./ContactUs.css";
 export const ContactUs = () => {
     return <section>
+        <h1 className="contact-use-header">Contact FCA Helpline:</h1>
         <div class="contact-cards container">
             <div class="row">
                 <div class="col-md-4">
@@ -50,7 +51,6 @@ export const ContactUs = () => {
                         </div>
                     </div>
                 </div>
-
                 <div class="col-md-4">
                     <div class="card">
                         <span class="icon">
@@ -66,6 +66,7 @@ export const ContactUs = () => {
                         </div>
                     </div>
                 </div>
+                <h1 className="contact-use-header">Contact State Helpline:</h1>
                 <div class="col-md-4">
                     <div class="card">
                         <span class="icon">
@@ -87,9 +88,9 @@ export const ContactUs = () => {
                         </span>
                         <div class="content-wrap">
                             <span class="item-title">
-                              State Complaint Registry                   </span>
+                                State Complaint Registry                   </span>
                             <p class="text">
-                               <a href="https://edaakhil.nic.in">Click to Register Online Complaint</a>
+                                <a href="https://edaakhil.nic.in">Click to Register Online Complaint</a>
                             </p>
                         </div>
                     </div>

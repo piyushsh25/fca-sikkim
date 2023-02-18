@@ -10,6 +10,11 @@
 
   background-color: currentColor;
 }
+.contact-use-header{
+  margin: 2rem 0;
+  display: flex;
+  justify-content: center;
+}
 .contact-us-header{
   display: flex;
   justify-content: center;
