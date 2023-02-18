@@ -14,7 +14,7 @@ export const Footer = () => {
           and the ability to make informed purchasing decisions.
         </p>
         <div class="icons">
-          <a href="#">
+          <a href="https://www.facebook.com/fcassikkim/">
             <i class="fa fa-facebook"></i>
           </a>
           <a href="#">
@@ -32,28 +32,28 @@ export const Footer = () => {
         <div>
           <i class="fa fa-map-marker"></i>
           <p>
-            <span> Deorali, Gangtok.</span> Sikkim, India
+            <span> Hospital Dara, Gangtok.</span> Sikkim, India
           </p>
         </div>
         <div>
           <i class="fa fa-phone"></i>
-          <p> (+91) 6294324463</p>
+          <p>(+91) 03592 - 295033</p>
         </div>
         <div>
           <i class="fa fa-envelope"></i>
-          <p> office@fca.com</p>
+          <p> federationconsumersikkim1997@gmail.com</p>
         </div>
       </div>
       <div class="footer-right col-md-4 col-sm-6">
         <img
           alt="header-img"
           className="footer-logo"
-          src={require("../assets/logo192.jpg")}
+          src={require("../assets/logo.png")}
         />
         <p class="menu">
-          <a href="#"> Home</a> |<Link to="/about">About</Link> |
-          <a href="#"> Services</a> |<a href="#"> Portfolio</a> |
-          <a href="#"> News</a> |<a href="#"> Contact</a>
+          <a href="#"> Home</a> |<Link to="/about">About Us</Link> |
+          <a href="#"> Events</a> |<a href="#"> Leadership</a>|<a href="#"> </a>
+          Developers |<a href="#"> Contact Us</a>
         </p>
         <p class="name"> FCA SIKKIM &copy; {year}</p>
       </div>

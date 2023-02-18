@@ -8,9 +8,9 @@
   padding: 50px;
   margin-top: 50px;
 }
-.footer-logo{
-    width: 5rem;
-    height: 5rem;
+.footer-logo {
+  width: 7rem;
+  height: 7rem;
 }
 .footer .footer-left,
 .footer .footer-center,
@@ -44,6 +44,7 @@
 
 .footer .icons {
   margin-top: 25px;
+  margin-left: 15px;
 }
 
 .footer .icons a {
