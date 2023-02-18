@@ -6,7 +6,9 @@
   font-weight: bold;
   font-size: 16px;
   padding: 50px;
-  margin-top: 50px;
+  bottom: 0rem;
+  left: 0px;
+  right: 0px;
 }
 .footer-logo {
   width: 7rem;
