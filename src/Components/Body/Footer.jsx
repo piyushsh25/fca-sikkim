@@ -41,7 +41,10 @@ export const Footer = () => {
         </div>
         <div>
           <i class="fa fa-envelope"></i>
-          <p className="email-footer"> federationconsumersikkim1997@gmail.com</p>
+          <p className="email-footer">
+            {" "}
+            federationconsumersikkim1997@gmail.com
+          </p>
         </div>
       </div>
       <div class="footer-right col-md-4 col-sm-6">
@@ -53,7 +56,7 @@ export const Footer = () => {
         <p class="menu">
           <a href="#"> Home</a> |<Link to="/about">About Us</Link> |
           <a href="#"> Events</a> |<a href="#"> Leadership</a>|<a href="#"> </a>
-          Developers |<a href="#"> Contact Us</a>
+          <a href="#"> Contact Us</a>
         </p>
         <p class="name"> FCA SIKKIM &copy; {year}</p>
       </div>
