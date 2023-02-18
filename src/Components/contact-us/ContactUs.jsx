@@ -1,8 +1,25 @@
 import "./ContactUs.css"
 export const ContactUs = () => {
     return <section>
+    <h1 className="contact-us-header">Contact Us :</h1>
         <div class="contact-cards container">
             <div class="row">
+                <div class="col-md-4">
+                    <div class="card">
+                        <span class="icon">
+                            <i class="fa fa-user" aria-hidden="true"></i>
+
+                        </span>
+                        <div class="content-wrap">
+                            <span class="item-title">
+                                Mr Suresh Kumar Lama (President)
+                            </span>
+                            <p class="text">
+                                Phone : (+91) 97756-95144
+                            </p>
+                        </div>
+                    </div>
+                </div>
                 <div class="col-md-4">
                     <div class="card">
                         <span class="icon">
@@ -10,7 +27,23 @@ export const ContactUs = () => {
                         </span>
                         <div class="content-wrap">
                             <span class="item-title">
-                                Call us anytime
+                                State Consumer Helpline
+                            </span>
+                            <p class="text">
+                                Landline: 03592 - 202675
+                                Online complaint : <a href="email">https://edaakhil.nic.in</a>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card">
+                        <span class="icon">
+                            <i class="fa fa-phone"></i>
+                        </span>
+                        <div class="content-wrap">
+                            <span class="item-title">
+                                Call FCA
                             </span>
                             <p class="text">
                                 Phone : (+91) 03592 - 295033
@@ -25,7 +58,7 @@ export const ContactUs = () => {
                         </span>
                         <div class="content-wrap">
                             <span class="item-title">
-                                Our Head Office                        </span>
+                                FCA Head Office                        </span>
                             <p class="text">
                                 Mist Tree Mountain , Hospital Dara
                                 Gangtok - Sikkim - India
@@ -42,10 +75,10 @@ export const ContactUs = () => {
                         </span>
                         <div class="content-wrap">
                             <span class="item-title">
-                                Call us anytime
+                                Mail FCA Directly
                             </span>
                             <p class="text">
-                                Mobile: +386 5555 235 / +386 8754 231
+                                <a href="email">federationconsumersikkim1997@gmail.com</a>
                             </p>
                         </div>
                     </div>
