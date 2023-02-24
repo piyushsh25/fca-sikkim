@@ -42,6 +42,11 @@
   margin-bottom: 8px;
 }
 .leadership-title {
-  font-weight:600;
+  font-weight: 600;
   margin-bottom: 8px;
+}
+@media screen and (max-width: 620px) {
+  .about-leadership {
+    width: 95vw;
+  }
 }
