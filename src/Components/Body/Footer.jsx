@@ -57,7 +57,7 @@ export const Footer = () => {
           <a href="#"> Home</a> |<Link to="/about">About Us</Link> |
           <a href="#"> Events</a> |<Link to="/leadership">Leadership</Link> |
           <a href="#"> </a>
-          <a href="/contact-us"> Contact Us</a>
+          <Link to="/contact-us">Contact Us</Link> |
         </p>
         <p className="name"> FCA SIKKIM &copy; {year}</p>
       </div>
