@@ -37,7 +37,7 @@ export function Header() {
                 <Nav className="justify-content-end pe-3 navbar-cta">
                   <Link to="/about">About us</Link>
                   <Nav.Link href="#action1">Events and News</Nav.Link>
-                  <Nav.Link href="#action2">Get Involved</Nav.Link>
+                  <Link to="/leadership">Leadership</Link>
                   <Button variant="warning" className="navbar-cta-button">
                     <Link to="/contact-us"> CONTACT US</Link>
                   </Button>
