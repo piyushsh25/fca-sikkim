@@ -84,7 +84,7 @@ export const LeadershipPage = () => {
               <div key={key}>
                 <div className="profile-image">
                   <img
-                    src="https://www.linkpicture.com/q/20230215_151742.jpg"
+                    src={lead.img}
                     alt="Leadership FCA Sikkim"
                   />
                 </div>
