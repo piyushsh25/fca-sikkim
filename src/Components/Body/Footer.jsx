@@ -54,10 +54,9 @@ export const Footer = () => {
           src={require("../assets/logo.png")}
         />
         <p className="menu">
-          <a href="#"> Home</a> |<Link to="/about">About Us</Link> |
-          <a href="#"> Events</a> |<Link to="/leadership">Leadership</Link> |
-          <a href="#"> </a>
-          <Link to="/contact-us">Contact Us</Link> |
+          <Link to="/">Home</Link> |<Link to="/about">About Us</Link> |
+          <Link to="/events">Events</Link> |<Link to="/leadership">Leadership</Link> 
+          |  <Link to="/contact-us">Contact Us</Link> 
         </p>
         <p className="name"> FCA SIKKIM &copy; {year}</p>
       </div>

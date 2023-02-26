@@ -35,7 +35,7 @@
   background-color: white !important;
   box-shadow: 0 2px 3px -1px rgba(0, 0, 0, 0.1);
   font-weight: bold;
-  position: relative;
+  position: relative !important;
 }
 .nav-container nav {
   margin-bottom: 0 !important;

@@ -19,13 +19,13 @@ export const AboutUS = () => {
         NGO Darpan Unique ID No. SK/2022/0318444.
       </div>
       <div className="about-us-content-2">
-        President --> Mr. Suresh Kumar Lama <br />
-        Vice Presidents --> Mrs. Srijana Kadka & Mr. Kesang Tamang <br />
-        General Secretary --> Mr. Amartya Raj Gurung <br />
-        Treasure --> Mr. Gaurav Kumar <br /> Chief Coordinator (State)--> Miss
+        President {"-->"} Mr. Suresh Kumar Lama <br />
+        Vice Presidents {"-->"} Mrs. Srijana Kadka & Mr. Kesang Tamang <br />
+        General Secretary {"-->"} Mr. Amartya Raj Gurung <br />
+        Treasure {"-->"} Mr. Gaurav Kumar <br /> Chief Coordinator (State){"-->"} Miss
         Rinzing Doma Tamang <br />
-        Coordinator -->Mr. Ashal Chettri <br />
-        Publicity Secretary --> Mr. Nitesh R. Pradhan <br />
+        Coordinator {"-->"}Mr. Ashal Chettri <br />
+        Publicity Secretary {"-->"} Mr. Nitesh R. Pradhan <br />
       </div>
     </div>
   );
