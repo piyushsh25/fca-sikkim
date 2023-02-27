@@ -2,20 +2,28 @@ import "./Leadership.css";
 export const LeadershipPage = () => {
   const leaderShip = [
     {
-      name: "Late Ganga Devi Rai",
-      img: "https://www.linkpicture.com/q/20230215_151742.jpg",
-      temure: "2020 - Present",
+      name: "Shri. Rohit Kumar Pradhan",
+      img: "https://www.linkpicture.com/q/received_3426556150993719-1.jpeg",
+      temure: "-",
       title: "President FCA",
       about:
-        "She was the Founding President of FCAS, after her retirement as a Principal from Deorali Girls Government Senior Secondary School, Gangtok, she had dedicated her service for the Women Empowerment and for the Consumer Rights awareness activities. ",
+        "He is a bureaucrat under Government of Sikkim. He worked as a General Secretary for a long time and initiated massive consumer rights drives till the time he was elevated as a President.",
     },
     {
       name: "Smt. Jayshree Pradhan , IAS",
       img: "https://www.linkpicture.com/q/received_3498831533708050.jpeg",
-      temure: "2020 - Present",
+      temure: "-",
       title: "President FCA",
       about:
-        "He is a bureaucrat under Government of Sikkim. He worked as a General Secretary for a long time and initiated massive consumer rights drives till the time he was elevated as a President.",
+        "She is a retired Secretary of Department of Food & Civil Supplies and Consumer Affairs , Government of Sikkim. She was instrumental in advocating the consumer rights and cause of having consumer group in the state.",
+    },
+    {
+      name: "Late Ganga Devi Rai",
+      img: "https://www.linkpicture.com/q/20230215_151742.jpg",
+      temure: "-",
+      title: "President FCA",
+      about:
+        "She was the Founding President of FCAS, after her retirement as a Principal from Deorali Girls Government Senior Secondary School, Gangtok, she had dedicated her service for the Women Empowerment and for the Consumer Rights awareness activities. ",
     },
   ];
   return (
@@ -73,32 +81,29 @@ export const LeadershipPage = () => {
             he was honoured with Northeast Award in Social Service from the hand
             of Shri Arun Haldar, Vice Chairman, National Commission of Scheduled
             Caste , Government of India and Bollywood Actress Mahima Choudhary
-            at Mumbai, Maharastra .`
+            at Mumbai, Maharastra.
           </div>
         </div>
       </div>
       <div className="leadership-container leadership-container-2">
-          {leaderShip.map((lead, key) => {
-            return (
-              <div key={key}>
-                <div className="profile-image">
-                  <img
-                    src={lead.img}
-                    alt="Leadership FCA Sikkim"
-                  />
-                </div>
-                <div className="about-leadership">
-                  <div className="leadership-name">{lead.name}</div>
-                  <div className="leadership-title">
-                    {lead.title} [{lead.temure}]
-                  </div>
-
-                  {lead.about}
-                </div>
+        {leaderShip.map((lead, key) => {
+          return (
+            <div key={key}>
+              <div className="profile-image">
+                <img src={lead.img} alt="Leadership FCA Sikkim" />
               </div>
-            );
-          })}
-        </div>
+              <div className="about-leadership">
+                <div className="leadership-name">{lead.name}</div>
+                <div className="leadership-title">
+                  {lead.title} [{lead.temure}]
+                </div>
+
+                {lead.about}
+              </div>
+            </div>
+          );
+        })}
+      </div>
     </section>
   );
 };
