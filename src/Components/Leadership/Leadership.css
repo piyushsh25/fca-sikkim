@@ -36,7 +36,15 @@
   background-color: rgba(244, 242, 242, 0.242);
   text-align: center;
 }
-
+.leadership-section .leadership-container-2{
+  display: flex;
+  gap: 2rem;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.leadership-container-2 .about-leadership{
+  width: 40vw;
+}
 .leadership-name {
   font-weight: bolder;
   margin-bottom: 8px;
@@ -47,6 +55,9 @@
 }
 @media screen and (max-width: 620px) {
   .about-leadership {
+    width: 95vw;
+  }
+  .leadership-container-2 .about-leadership{
     width: 95vw;
   }
 }

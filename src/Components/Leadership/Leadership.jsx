@@ -77,8 +77,7 @@ export const LeadershipPage = () => {
           </div>
         </div>
       </div>
-      <div className="leadership-container">
-        <div>
+      <div className="leadership-container leadership-container-2">
           {leaderShip.map((lead, key) => {
             return (
               <div key={key}>
@@ -100,7 +99,6 @@ export const LeadershipPage = () => {
             );
           })}
         </div>
-      </div>
     </section>
   );
 };
