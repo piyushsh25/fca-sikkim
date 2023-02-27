@@ -12,7 +12,7 @@ export const Events = () => {
         "TRAI - Consumer Outreach Programme.Hotel Fern Denzong Kazi Road , Gangtok Dated: 14th . March.2023.Time : 2 PM",
       description3:
         "Executive Member Miss Chamta Gurung participated on behalf of FCAS which is only Voluntary Consumer Organisation (VCO) in the state of Sikkim.",
-
+      
       img1: "https://www.linkpicture.com/q/FB_IMG_1676457332188.jpg",
       img2: "https://www.linkpicture.com/q/FB_IMG_1676457335006.jpg",
       img3: "https://www.linkpicture.com/q/FB_IMG_1676457325834.jpg",
