@@ -17,15 +17,6 @@ export const Footer = () => {
           <a href="https://www.facebook.com/fcassikkim/">
             <i className="fa fa-facebook"></i>
           </a>
-          <a href="#">
-            <i className="fa fa-twitter"></i>
-          </a>
-          <a href="#">
-            <i className="fa fa-linkedin"></i>
-          </a>
-          <a href="#">
-            <i className="fa fa-instagram"></i>
-          </a>
         </div>
       </div>
       <div className="footer-center col-md-4 col-sm-6">
@@ -55,8 +46,9 @@ export const Footer = () => {
         />
         <p className="menu">
           <Link to="/">Home</Link> |<Link to="/about">About Us</Link> |
-          <Link to="/events">Events</Link> |<Link to="/leadership">Leadership</Link> 
-          |  <Link to="/contact-us">Contact Us</Link> 
+          <Link to="/events">Events</Link> |
+          <Link to="/leadership">Leadership</Link>|{" "}
+          <Link to="/contact-us">Contact Us</Link>
         </p>
         <p className="name"> FCA SIKKIM &copy; {year}</p>
       </div>
