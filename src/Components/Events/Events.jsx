@@ -61,11 +61,11 @@ export const Events = () => {
       img4: "https://www.linkpicture.com/q/FB_IMG_1676457329086_1.jpg",
     },
     {
-      header1: "FCAS Internal Meeting",
-      header2: "FCAS Internal Meeting",
-      header3: "FCAS Internal Meeting",
-      header4: "FCAS Internal Meeting",
-      header5: "FCAS Internal Meeting",
+      header1: "Special Meeting",
+      header2: "Special Meeting",
+      header3: "Special Meeting",
+      header4: "Special Meeting",
+      header5: "Special Meeting",
 
       description1:
         "His Excellency Governor of Sikkim Shri Ganga Prasad meeting with Federation of Consumers Association of Sikkim Executive Committee Members",

@@ -4,24 +4,24 @@ export const LeadershipPage = () => {
     {
       name: "Shri. Rohit Kumar Pradhan",
       img: "https://www.linkpicture.com/q/received_3426556150993719-1.jpeg",
-      temure: "-",
-      title: "President FCA",
+      temure: "_",
+      title: "President",
       about:
         "He is a bureaucrat under Government of Sikkim. He worked as a General Secretary for a long time and initiated massive consumer rights drives till the time he was elevated as a President.",
     },
     {
       name: "Smt. Jayshree Pradhan , IAS",
       img: "https://www.linkpicture.com/q/received_3498831533708050.jpeg",
-      temure: "-",
-      title: "President FCA",
+      temure: "_",
+      title: "President",
       about:
         "She is a retired Secretary of Department of Food & Civil Supplies and Consumer Affairs , Government of Sikkim. She was instrumental in advocating the consumer rights and cause of having consumer group in the state.",
     },
     {
       name: "Late Ganga Devi Rai",
       img: "https://www.linkpicture.com/q/20230215_151742.jpg",
-      temure: "-",
-      title: "President FCA",
+      temure: "_",
+      title: "President",
       about:
         "She was the Founding President of FCAS, after her retirement as a Principal from Deorali Girls Government Senior Secondary School, Gangtok, she had dedicated her service for the Women Empowerment and for the Consumer Rights awareness activities. ",
     },
@@ -38,50 +38,47 @@ export const LeadershipPage = () => {
           </div>
           <div className="about-leadership">
             <div className="leadership-name">Mr. Suresh Kumar Lama</div>
-            <div className="leadership-title">
-              President FCA|[ 2020 - Present]
-            </div>
-            He had worked as a Chief Coordinator (State) for FCAS and was
-            elected as a President after his 10 years of untiring effort on
-            doing consumer awareness campaigns and advocacy across the rural and
-            urban regions of the Sikkim state. is the Director of Citizens Urban
-            Cooperative Bank Ltd. , Sikkim. He is associated with many social
-            organizations of the state. He along with his associate NGOs has
-            done numerous humanitarian works and supported many Children's Home
-            , Old age homes , underprivileged students, patients etc. He led the
-            team and volunteered on reaching the essential commodities to the
-            Nepal Earthquake victims in the year 2015 in the banner of
-            #SikkimForNepal, were his team had distributed the essential
-            commodities and apparels in the mostly damaged 9 villages of 3
-            districts of Nepal. Besides he had wholeheartedly contributed and
-            volunteered on supporting Landslide victims of Dzongu, North Sikkim,
-            Yuksom, West Sikkim, Pathing , Yangang, South Sikkim, Pedong fire
-            victims of Kalimpong , West Bengal and many places of needs around
-            the state and neighbouring states of India. During the Covid-19
-            crisis in Sikkim, individually and along with his Denz'93 (Alumni of
-            Sikkim Government College Batch of 1993) supported the needy
-            families of the state. He had executed and volunteered several Free
-            Health Camps in the state and he is also a frequent blood donor.
-            Being a Founder of Sikkim Youth Foundation he had started Kosis (A
-            effort to build self reliant society) based on Skill Development
-            Training programme , which was successfully conducted at Sawney
-            village of Westpendam Constituency and the participants were
-            benefited by this social project. Because of Covid-19 pandemic the
-            project is in halt, Kosis will be implemented around Sikkim in the
-            different villages meant for drop out students and for the
-            underpriviledged housewives.He is a Founder of Sikkim Tamang Youth
-            Society which mainly focuses on community development. The blog &
-            page of STYS promotes the talents, besides creating awareness in the
-            history, traditions and cultures of the Tamang community. He is
-            actively involved in tourism sector and promoted multiple tourism
-            based festivals of Sikkim , besides representing Sikkim in the
-            national Tourism festivals in the different states of India . He is
-            decorated with numerous felicitations around the state and in the
-            neighbouring states by the different organizations. In the year 2022
-            he was honoured with Northeast Award in Social Service from the hand
-            of Shri Arun Haldar, Vice Chairman, National Commission of Scheduled
-            Caste , Government of India and Bollywood Actress Mahima Choudhary
-            at Mumbai, Maharastra.
+            <div className="leadership-title">President [ 2020 - Present]</div>
+            He worked as the Chief Coordinator (State) for FCAS and was later
+            elected as the President after 10 years of untiring effort in
+            conducting consumer awareness campaigns and advocacy across rural
+            and urban regions of Sikkim. He is currently the Director of
+            Citizens Urban Cooperative Bank Ltd. in Sikkim and is associated
+            with many social organizations in the state. Along with his
+            associate NGOs, he has done numerous humanitarian works and
+            supported many children's homes, old age homes, underprivileged
+            students, patients, etc. He led the team and volunteered to provide
+            essential commodities to the Nepal earthquake victims in 2015 under
+            the banner of #SikkimForNepal. His team distributed essential
+            commodities and apparel in the nine most damaged villages across
+            three districts of Nepal. Besides, he wholeheartedly contributed and
+            volunteered to support landslide victims of Dzongu, North Sikkim,
+            Yuksom, West Sikkim, Pathing, Yangang, South Sikkim, Pedong fire
+            victims of Kalimpong, West Bengal, and many other places of need in
+            the state and neighboring states of India. During the COVID-19
+            crisis in Sikkim, he and his Denz'93 (Alumni of Sikkim Government
+            College Batch of 1993) supported needy families of the state. He has
+            executed and volunteered in several Free Health Camps in the state
+            and is also a frequent blood donor. As the Founder of Sikkim Youth
+            Foundation, he started Kosis, an effort to build a self-reliant
+            society based on skill development training programs, which were
+            successfully conducted in Sawney village of Westpendam Constituency.
+            The participants benefitted from this social project. Due to the
+            COVID-19 pandemic, the project is currently on hold, but Kosis will
+            be implemented in different villages across Sikkim for drop-out
+            students and underprivileged housewives. He is also the Founder of
+            Sikkim Tamang Youth Society, which mainly focuses on community
+            development. The blog and page of STYS promote talents while
+            creating awareness of the history, traditions, and cultures of the
+            Tamang community. He is actively involved in the tourism sector and
+            has promoted multiple tourism-based festivals of Sikkim. He has also
+            represented Sikkim in national tourism festivals in different states
+            of India. He has been decorated with numerous felicitations around
+            the state and neighboring states by different organizations. In
+            2022, he was honored with the Northeast Award in Social Service by
+            Shri Arun Haldar, Vice Chairman of the National Commission of
+            Scheduled Castes, Government of India, and Bollywood Actress Mahima
+            Choudhary in Mumbai, Maharashtra.
           </div>
         </div>
       </div>
