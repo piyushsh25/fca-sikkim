@@ -106,7 +106,9 @@
   color: #0099ff;
   text-decoration: none;
 }
-
+.footer-contact-number h1{
+color: white;
+}
 /* footer right*/
 
 .footer .footer-right {

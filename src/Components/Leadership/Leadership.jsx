@@ -92,7 +92,7 @@ export const LeadershipPage = () => {
               <div className="about-leadership">
                 <div className="leadership-name">{lead.name}</div>
                 <div className="leadership-title">
-                  {lead.title} [{lead.temure}]
+                  {lead.title}
                 </div>
 
                 {lead.about}
