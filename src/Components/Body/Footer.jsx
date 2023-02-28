@@ -44,10 +44,10 @@ export const Footer = () => {
           className="footer-logo"
           src={require("../assets/logo.png")}
         />
-        <div className="footer-contact-number"><h2>State Helpline Number
- </h2><h1>Phone : 03592-202675
+        <div className="footer-contact-number"><h3>State Helpline Number
+        </h3><h2>Phone : 03592-202675
 
-</h1></div>
+          </h2></div>
         <p className="menu">
           <Link to="/">Home</Link> |<Link to="/about">About Us</Link> |
           <Link to="/events">Events</Link> |
