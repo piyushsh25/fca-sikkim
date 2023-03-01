@@ -4,7 +4,7 @@ export const LeadershipPage = () => {
     {
       name: "Shri. Rohit Kumar Pradhan",
       img: "https://www.linkpicture.com/q/received_3426556150993719-1.jpeg",
-      temure: "_",
+      temure: "[2020 - 2021]",
       title: "President",
       about:
         "He is a bureaucrat under Government of Sikkim. He worked as a General Secretary for a long time and initiated massive consumer rights drives till the time he was elevated as a President.",
@@ -12,7 +12,7 @@ export const LeadershipPage = () => {
     {
       name: "Smt. Jayshree Pradhan , IAS",
       img: "https://www.linkpicture.com/q/received_3498831533708050.jpeg",
-      temure: "_",
+      temure: "[2013 - 2019]",
       title: "President",
       about:
         "She is a retired Secretary of Department of Food & Civil Supplies and Consumer Affairs , Government of Sikkim. She was instrumental in advocating the consumer rights and cause of having consumer group in the state.",
@@ -20,7 +20,7 @@ export const LeadershipPage = () => {
     {
       name: "Late Ganga Devi Rai",
       img: "https://www.linkpicture.com/q/20230215_151742.jpg",
-      temure: "_",
+      temure: "[1997 - 2012]",
       title: "President",
       about:
         "She was the Founding President of FCAS, after her retirement as a Principal from Deorali Girls Government Senior Secondary School, Gangtok, she had dedicated her service for the Women Empowerment and for the Consumer Rights awareness activities. ",
@@ -38,7 +38,7 @@ export const LeadershipPage = () => {
           </div>
           <div className="about-leadership">
             <div className="leadership-name">Mr. Suresh Kumar Lama</div>
-            <div className="leadership-title">President [ 2020 - Present]</div>
+            <div className="leadership-title">President [2020 - Present]</div>
             He worked as the Chief Coordinator (State) for FCAS and was later
             elected as the President after 10 years of untiring effort in
             conducting consumer awareness campaigns and advocacy across rural
@@ -74,11 +74,11 @@ export const LeadershipPage = () => {
             has promoted multiple tourism-based festivals of Sikkim. He has also
             represented Sikkim in national tourism festivals in different states
             of India. He has been decorated with numerous felicitations around
-            the state and neighboring states by different organizations. In
-            2022, he was honored with the Northeast Award in Social Service by
-            Shri Arun Haldar, Vice Chairman of the National Commission of
-            Scheduled Castes, Government of India, and Bollywood Actress Mahima
-            Choudhary in Mumbai, Maharashtra.
+            the state and neighboring states by different organizations. In the
+            year 2022, he was honored with the Northeast Award in Social Service
+            from the hand of Shri Arun Haldar, Vice Chairman of the National
+            Commission of Scheduled Castes, Government of India, and Bollywood
+            Actress Mahima Choudhary in Mumbai, Maharashtra.
           </div>
         </div>
       </div>
@@ -91,10 +91,8 @@ export const LeadershipPage = () => {
               </div>
               <div className="about-leadership">
                 <div className="leadership-name">{lead.name}</div>
-                <div className="leadership-title">
-                  {lead.title}
-                </div>
-
+                <div className="leadership-title">{lead.title}</div>
+                <div className="leadership-temure">{lead.temure}</div>
                 {lead.about}
               </div>
             </div>

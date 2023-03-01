@@ -43,14 +43,14 @@ export const Events = () => {
       img6: "https://www.linkpicture.com/q/FB_IMG_1676438795221.jpg",
     },
     {
-      header1: "Workshop on Consumer Protection 2022",
-      header2: "Workshop on Consumer Protection 2022",
-      header3: "Workshop on Consumer Protection 2022",
-      header4: "Workshop on Consumer Protection 2022",
+      header1: "Workshop on Consumer Protection 2023",
+      header2: "Workshop on Consumer Protection 2023",
+      header3: "Workshop on Consumer Protection 2023",
+      header4: "Workshop on Consumer Protection 2023",
       description1:
         "Workshop on Consumer Protection in North Eastern States held at Guwahati, Assam on 2nd.December.2022.",
       description2:
-        "TRAI - Consumer Outreach Programme.Hotel Fern Denzong Kazi Road , Gangtok .Dated: 14th March,2023.Time : 2 PM",
+        "[UPCOMING EVENT]   TRAI - Consumer Outreach Programme.Hotel Fern Denzong Kazi Road , Gangtok .Dated: 14th March, 2023.Time: 2 PM",
       description3:
         "Executive Member Miss Chamta Gurung participated on behalf of FCAS which is only Voluntary Consumer Organisation (VCO) in the state of Sikkim.",
       description4: "Workshop on Consumer Protection in North Eastern States",
@@ -61,11 +61,11 @@ export const Events = () => {
       img4: "https://www.linkpicture.com/q/FB_IMG_1676457329086_1.jpg",
     },
     {
-      header1: "Special Meeting",
-      header2: "Special Meeting",
-      header3: "Special Meeting",
-      header4: "Special Meeting",
-      header5: "Special Meeting",
+      header1: "Special Meetings",
+      header2: "Special Meetings",
+      header3: "Special Meetings",
+      header4: "Special Meetings",
+      header5: "Special Meetings",
 
       description1:
         "His Excellency Governor of Sikkim Shri Ganga Prasad meeting with Federation of Consumers Association of Sikkim Executive Committee Members",
