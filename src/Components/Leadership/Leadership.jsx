@@ -38,7 +38,7 @@ export const LeadershipPage = () => {
           </div>
           <div className="about-leadership">
             <div className="leadership-name">Mr. Suresh Kumar Lama</div>
-            <div className="leadership-title">President [2020 - Present]</div>
+            <div className="leadership-title">President [2022 - Present]</div>
             He worked as the Chief Coordinator (State) for FCAS and was later
             elected as the President after 10 years of untiring effort in
             conducting consumer awareness campaigns and advocacy across rural

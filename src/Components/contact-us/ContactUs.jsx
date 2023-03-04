@@ -11,7 +11,9 @@ export const ContactUs = () => {
                 <i className="fa fa-user" aria-hidden="true"></i>
               </span>
               <div className="content-wrap">
-                <span className="item-title">Mr Suresh Kumar Lama (President)</span>
+                <span className="item-title">
+                  Mr Suresh Kumar Lama (President)
+                </span>
                 <p className="text">Phone : 97756-95114</p>
               </div>
             </div>
@@ -36,7 +38,7 @@ export const ContactUs = () => {
                 <i className="fa fa-phone"></i>
               </span>
               <div className="content-wrap">
-                <span className="item-title">Call FCA</span>
+                <span className="item-title">Call FCAS</span>
                 <p className="text">
                   Landline : (+91) 03592 - 295033 <br />
                   Mobile: (+91) 97756 95114<br></br>Mobile: (+91) 90026 27682
@@ -51,7 +53,7 @@ export const ContactUs = () => {
                 <i className="fa fa-envelope-o"></i>
               </span>
               <div className="content-wrap">
-                <span className="item-title">Mail FCA</span>
+                <span className="item-title">Mail FCAS</span>
                 <p className="text">
                   <a href="mailto:federationconsumersikkim1997@gmail.com">
                     federationconsumersikkim1997@gmail.com
@@ -67,7 +69,9 @@ export const ContactUs = () => {
                 <i className="fa fa-map-o"></i>
               </span>
               <div className="content-wrap">
-                <span className="item-title">State Helpline Number </span>
+                <span className="item-title">
+                  State Consumer Helpline Number{" "}
+                </span>
                 <p className="text">Phone : 03592-202675</p>
               </div>
             </div>
@@ -78,7 +82,9 @@ export const ContactUs = () => {
                 <i className="fa fa-map-o"></i>
               </span>
               <div className="content-wrap">
-                <span className="item-title">State Complaint Registry </span>
+                <span className="item-title">
+                  Online Consumer Complaint Registry{" "}
+                </span>
                 <p className="text">
                   <a href="https://edaakhil.nic.in">
                     Click to Register Online Complaint
