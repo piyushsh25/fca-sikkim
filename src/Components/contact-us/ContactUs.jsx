@@ -2,7 +2,7 @@ import "./ContactUs.css";
 export const ContactUs = () => {
   return (
     <section>
-      <h1 className="contact-use-header">Contact FCA Helpline:</h1>
+      <h1 className="contact-use-header">Contact FCAS Helpline:</h1>
       <div className="contact-cards container">
         <div className="row">
           <div className="col-md-4">

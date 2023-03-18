@@ -3,6 +3,53 @@ import "./Event.css";
 export const Events = () => {
   const eventDetails = [
     {
+      header1: "World Consumer Rights Day 2023",
+      header2: "World Consumer Rights Day 2023",
+      header3: "World Consumer Rights Day 2023",
+      header4: "World Consumer Rights Day 2023",
+      header5: "World Consumer Rights Day 2023",
+      header6: "World Consumer Rights Day 2023",
+      header7: "World Consumer Rights Day 2023",
+
+      description1: "World Consumer Rights Day 2023, Ravangla, South Sikkim",
+      description2: "World Consumer Rights Day 2023, Ravangla, South Sikkim",
+      description3: "World Consumer Rights Day 2023, Ravangla, South Sikkim ",
+      description4: "World Consumer Rights Day 2023, Ravangla, South Sikkim ",
+      description5: "World Consumer Rights Day 2023, Ravangla, South Sikkim ",
+      description6: "World Consumer Rights Day 2023, Ravangla, South Sikkim ",
+      description7: "World Consumer Rights Day 2023, Ravangla, South Sikkim ",
+
+      img1: "https://www.linkpicture.com/q/SAVE_20230316_082233.jpg",
+      img2: "https://www.linkpicture.com/q/SAVE_20230316_121549.jpg",
+      img3: "https://www.linkpicture.com/q/SAVE_20230316_115303.jpg",
+      img4: "https://www.linkpicture.com/q/IMG_20230316_123328.jpg",
+      img5: "https://www.linkpicture.com/q/IMG_20230315_204518.jpg",
+      img6: "https://www.linkpicture.com/q/SAVE_20230315_204147.jpg",
+      img7: "https://www.linkpicture.com/q/IMG_20230316_123411.jpg",
+    },
+    {
+      header1: "Special Consumer Outreach Programme 2023",
+      header2: "Special Consumer Outreach Programme 2023",
+      header3: "Special Consumer Outreach Programme 2023",
+      header4: "Special Consumer Outreach Programme 2023",
+      header5: "Special Consumer Outreach Programme 2023",
+      header6: "Special Consumer Outreach Programme 2023",
+
+      description1:
+        "Special Consumer Outreach Programme organised by Telecom Regulatory Authority of India (TRAI) at Hotel Fern Denzong, Kazi Road, Gangtok on 14th March '2023.",
+      description2:
+        "On behalf of Federation of Consumers Association of Sikkim, President, Shri Suresh K Lama, Vice President Shri Kesang Tamang attended the programme along with the two volunteers.",
+      description3: "Special Consumer Outreach Programme 2023 at Gangtok",
+      description4: "Special Consumer Outreach Programme 2023 at Gangtok",
+      description5: "Special Consumer Outreach Programme 2023 at Gangtok",
+
+      img1: "https://www.linkpicture.com/q/FB_IMG_1679114033839.jpg",
+      img2: "https://www.linkpicture.com/q/IMG_20230314_180050.jpg",
+      img3: "https://www.linkpicture.com/q/IMG_20230314_175722.jpg",
+      img4: "https://www.linkpicture.com/q/FB_IMG_1679114027732.jpg",
+      img5: "https://www.linkpicture.com/q/FB_IMG_1679114047686.jpg",
+    },
+    {
       header1: "Partnership with C- Quest Capital",
       header2: "Partnership with C- Quest Capital",
       header3: "Partnership with C- Quest Capital",
@@ -13,7 +60,7 @@ export const Events = () => {
       description2:
         "These investments will significantly improve the health and well-being of rural consumers with key beneficiaries being the women and children who will spend less time carrying firewood over long distances and avoid exposure to toxic air pollution from open fires. The project activities will also directly fund local employment work to conduct post-installation audits and monitoring for the lifetime of these projects.",
       description3:
-        "Groud survey for pilot project was already initiated by officials of C-Quest Capital India along with FCAS Executives in the rural areas of Sikkim viz.",
+        "Ground survey for pilot project was already initiated by officials of C-Quest Capital India along with FCAS Executives in the rural areas of Sikkim viz.",
       description4:
         "Khamdong Singtam Constituency of East District, Namthang Rateypani Constituency of South District, Rinchenpong Constituency of Soreng District and Maneybong Dentam Constituency of West District. ",
 
@@ -43,10 +90,10 @@ export const Events = () => {
       img6: "https://www.linkpicture.com/q/FB_IMG_1676438795221.jpg",
     },
     {
-      header1: "Workshop on Consumer Protection 2023",
-      header2: "Workshop on Consumer Protection 2023",
-      header3: "Workshop on Consumer Protection 2023",
-      header4: "Workshop on Consumer Protection 2023",
+      header1: "Workshop on Consumer Protection 2022",
+      header2: "Workshop on Consumer Protection 2022",
+      header3: "Workshop on Consumer Protection 2022",
+      header4: "Workshop on Consumer Protection 2022",
       description1:
         "Workshop on Consumer Protection in North Eastern States held at Guwahati, Assam on 2nd.December.2022.",
       description2:
@@ -134,6 +181,22 @@ export const Events = () => {
       img5: "https://www.linkpicture.com/q/FB_IMG_1676439348833.jpg",
       img6: "https://www.linkpicture.com/q/FB_IMG_1676439397266.jpg",
     },
+    {
+      header1: "World Consumer Rights Day 2021",
+      header2: "World Consumer Rights Day 2021",
+      header3: "World Consumer Rights Day 2021",
+      header4: "World Consumer Rights Day 2021",
+
+      description1: "World Consumer Rights Day 2021, Tadong , Gangtok",
+      description2: "World Consumer Rights Day 2021, Tadong , Gangtok",
+      description3: "World Consumer Rights Day 2021, Tadong , Gangtok",
+      description4: "World Consumer Rights Day 2021, Tadong , Gangtok",
+
+      img1: "https://www.linkpicture.com/q/FB_IMG_1679047376242.jpg",
+      img2: "https://www.linkpicture.com/q/FB_IMG_1679047361169.jpg",
+      img3: "https://www.linkpicture.com/q/FB_IMG_1679047370907.jpg",
+      img4: "https://www.linkpicture.com/q/FB_IMG_1679047366343.jpg",
+    },
 
     {
       header1: "National Consumer Day 2020 ",
@@ -142,11 +205,11 @@ export const Events = () => {
       header4: "National Consumer Day 2020 ",
       header5: "National Consumer Day 2020 ",
 
-      description1: "National Consumer Day 2022 at Gangtok",
-      description2: "National Consumer Day 2022 at Gangtok",
-      description3: "National Consumer Day 2022 at Gangtok",
-      description4: "National Consumer Day 2022 at Gangtok",
-      description5: "National Consumer Day 2022 at Gangtok",
+      description1: "National Consumer Day 2020 at Gangtok",
+      description2: "National Consumer Day 2020 at Gangtok",
+      description3: "National Consumer Day 2020 at Gangtok",
+      description4: "National Consumer Day 2020 at Gangtok",
+      description5: "National Consumer Day 2020 at Gangtok",
 
       img1: "https://www.linkpicture.com/q/FB_IMG_1676439533798.jpg",
       img2: "https://www.linkpicture.com/q/FB_IMG_1676439552197.jpg",
@@ -182,11 +245,11 @@ export const Events = () => {
       header4: "National Consumer Day 2019 ",
       header5: "National Consumer Day 2019 ",
 
-      description1: "National Consumer Day 2022 at Namthang, South District",
-      description2: "National Consumer Day 2022 at Namthang, South District",
-      description3: "National Consumer Day 2022 at Namthang, South District",
-      description4: "National Consumer Day 2022 at Namthang, South District",
-      description5: "National Consumer Day 2022 at Namthang, South District",
+      description1: "National Consumer Day 2019 at Namthang, South District",
+      description2: "National Consumer Day 2019 at Namthang, South District",
+      description3: "National Consumer Day 2019 at Namthang, South District",
+      description4: "National Consumer Day 2019 at Namthang, South District",
+      description5: "National Consumer Day 2019 at Namthang, South District",
 
       img1: "https://www.linkpicture.com/q/FB_IMG_1676439839349.jpg",
       img2: "https://www.linkpicture.com/q/FB_IMG_1676439811758.jpg",
@@ -201,11 +264,11 @@ export const Events = () => {
       header4: "National Consumer Day 2018",
       header5: "National Consumer Day 2018",
 
-      description1: "National Consumer Day 2022 at Jorethang, South District",
-      description2: "National Consumer Day 2022 at Jorethang, South District",
-      description3: "National Consumer Day 2022 at Jorethang, South District",
-      description4: "National Consumer Day 2022 at Jorethang, South District",
-      description5: "National Consumer Day 2022 at Jorethang, South District",
+      description1: "National Consumer Day 2018 at Jorethang, South District",
+      description2: "National Consumer Day 2018 at Jorethang, South District",
+      description3: "National Consumer Day 2018 at Jorethang, South District",
+      description4: "National Consumer Day 2018 at Jorethang, South District",
+      description5: "National Consumer Day 2018 at Jorethang, South District",
 
       img1: "https://www.linkpicture.com/q/FB_IMG_1676440153813.jpg",
       img2: "https://www.linkpicture.com/q/FB_IMG_1676440175437.jpg",
@@ -239,11 +302,11 @@ export const Events = () => {
       header4: "National Consumer Day 2016",
       header5: "National Consumer Day 2016",
 
-      description1: "National Consumer Day 2017 at Majhitar, Pakyong District",
-      description2: "National Consumer Day 2017 at Majhitar, Pakyong District",
-      description3: "National Consumer Day 2017 at Majhitar, Pakyong District",
-      description4: "National Consumer Day 2017 at Majhitar, Pakyong District",
-      description5: "National Consumer Day 2017 at Majhitar, Pakyong District",
+      description1: "National Consumer Day 2016 at Majhitar, Pakyong District",
+      description2: "National Consumer Day 2016 at Majhitar, Pakyong District",
+      description3: "National Consumer Day 2016 at Majhitar, Pakyong District",
+      description4: "National Consumer Day 2016 at Majhitar, Pakyong District",
+      description5: "National Consumer Day 2016 at Majhitar, Pakyong District",
 
       img1: "https://www.linkpicture.com/q/FB_IMG_1676440385119.jpg",
       img2: "https://www.linkpicture.com/q/FB_IMG_1676440371426.jpg",
@@ -318,15 +381,15 @@ export const Events = () => {
       header5: "Consumer Awareness Programme 2013",
 
       description1:
-        "Consumer Awareness Programme 2015 at Rangpo Town of Pakyong District",
+        "Consumer Awareness Programme 2013 at Rangpo Town of Pakyong District",
       description2:
-        "Consumer Awareness Programme 2015 at Rangpo Town of Pakyong District",
+        "Consumer Awareness Programme 2013 at Rangpo Town of Pakyong District",
       description3:
-        "Consumer Awareness Programme 2015 at Rangpo Town of Pakyong District",
+        "Consumer Awareness Programme 2013 at Rangpo Town of Pakyong District",
       description4:
-        "Consumer Awareness Programme 2015 at Rangpo Town of Pakyong District",
+        "Consumer Awareness Programme 2013 at Rangpo Town of Pakyong District",
       description5:
-        "Consumer Awareness Programme 2015 at Rangpo Town of Pakyong District",
+        "Consumer Awareness Programme 2013 at Rangpo Town of Pakyong District",
 
       img1: "https://www.linkpicture.com/q/FB_IMG_1676440984742.jpg",
       img2: "https://www.linkpicture.com/q/FB_IMG_1676440948366.jpg",
