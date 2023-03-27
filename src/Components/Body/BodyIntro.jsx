@@ -34,7 +34,7 @@ export const BodyIntro = () => {
         <div className="intro-img">
           <img src={require("../assets/4.jpg")} alt="image1" />
         </div>
-      </div>
+      </div>  
     </section>
   );
 };

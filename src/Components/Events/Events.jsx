@@ -3,6 +3,29 @@ import "./Event.css";
 export const Events = () => {
   const eventDetails = [
     {
+      header1: "Presentation of Certificates to SMIT students",
+      header2: "Presentation of Certificates to SMIT students",
+      header3: "Presentation of Certificates to SMIT students",
+      header4: "Presentation of Certificates to SMIT students",
+      header5: "Presentation of Certificates to SMIT students",
+      header6: "Presentation of Certificates to SMIT students",
+      header7: "Presentation of Certificates to SMIT students",
+
+      description1:
+        "Federation of Consumers Association of Sikkim (FCAS) , President, Shri Suresh K. Lama presented Certificate of Appreciation to the two B.Tech (CSE) students of Sikkim Manipal Institute of Technology Mr. Rinchen Tempa Bhutia and Mr. Piyush Poudyal from the hand of Director SMIT Prof (Dr) Gurdaman Lal Sharma for designing and developing official websites of the Federation.FCAS extends thanks to Shri Kiran Gautam , Assistant Professor, Department of Computer Science & Engineering on guiding and supporting FCAS to obtain an official website.",
+      description2:
+        "Federation of Consumers Association of Sikkim (FCAS) , President, Shri Suresh K. Lama presented Certificate of Appreciation to the two B.Tech (CSE) students of Sikkim Manipal Institute of Technology Mr. Rinchen Tempa Bhutia and Mr. Piyush Poudyal from the hand of Director SMIT Prof (Dr) Gurdaman Lal Sharma for designing and developing official websites of the Federation.FCAS extends thanks to Shri Kiran Gautam , Assistant Professor, Department of Computer Science & Engineering on guiding and supporting FCAS to obtain an official website.",
+      description3:
+        "Federation of Consumers Association of Sikkim (FCAS) , President, Shri Suresh K. Lama presented Certificate of Appreciation to the two B.Tech (CSE) students of Sikkim Manipal Institute of Technology Mr. Rinchen Tempa Bhutia and Mr. Piyush Poudyal from the hand of Director SMIT Prof (Dr) Gurdaman Lal Sharma for designing and developing official websites of the Federation.FCAS extends thanks to Shri Kiran Gautam , Assistant Professor, Department of Computer Science & Engineering on guiding and supporting FCAS to obtain an official website. ",
+      description4:
+        "Federation of Consumers Association of Sikkim (FCAS) , President, Shri Suresh K. Lama presented Certificate of Appreciation to the two B.Tech (CSE) students of Sikkim Manipal Institute of Technology Mr. Rinchen Tempa Bhutia and Mr. Piyush Poudyal from the hand of Director SMIT Prof (Dr) Gurdaman Lal Sharma for designing and developing official websites of the Federation.FCAS extends thanks to Shri Kiran Gautam , Assistant Professor, Department of Computer Science & Engineering on guiding and supporting FCAS to obtain an official website. ",
+
+      img1: "https://www.linkpicture.com/q/SAVE_20230327_125258_2.jpg",
+      img2: "https://www.linkpicture.com/q/IMG_20230327_131234_2.jpg",
+      img3: "https://www.linkpicture.com/q/IMG_20230327_131155_2.jpg",
+      img4: "https://www.linkpicture.com/q/IMG_20230327_131301_2.jpg",
+    },
+    {
       header1: "World Consumer Rights Day 2023",
       header2: "World Consumer Rights Day 2023",
       header3: "World Consumer Rights Day 2023",
