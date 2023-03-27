@@ -4,6 +4,9 @@
   text-align: left;
   font-family: sans-serif;
   font-weight: bold;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   font-size: 16px;
   padding: 20px;
   bottom: 0rem;
@@ -157,11 +160,11 @@ color: white;
 @media (max-width: 767px) {
   .footer {
     font-size: 14px;
+    display: block;
   }
   .footer .footer-left,
   .footer .footer-center,
   .footer .footer-right {
-    display: block;
     width: 100%;
     margin-bottom: 40px;
     text-align: center;
