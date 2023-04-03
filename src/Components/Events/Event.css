@@ -4,6 +4,7 @@
   justify-content: center;
   gap: 1rem;
   margin: 1rem 0;
+  position: relative;
 }
 .single-event-container {
   width: 50vw;
@@ -19,6 +20,27 @@
 .carousel-caption {
   position: static;
   color: black;
+}
+.new-post-cta{
+  background-color: blue;
+  color: white;
+  width: fit-content;
+  padding: 8px 2rem;
+  border-radius: 8px;
+  margin-top: 2rem;
+  margin-left: 2rem;
+}
+.delete-post-cta{
+  position: absolute;
+  z-index: 99999;
+  top: 0;
+}
+.delete-post-cta button{
+  background-color: red;
+  padding: 8px 1rem;
+  border: none;
+  color: white;
+  border-radius: 8px;
 }
 @media screen and (max-width: 871px) {
   .single-event-container {

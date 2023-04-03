@@ -1,5 +1,7 @@
 import { EventsCarousel } from "./EventsCarousel";
 import "./Event.css";
+import { Button } from "react-bootstrap";
+import { Link } from "react-router-dom";
 export const Events = () => {
   const eventDetails = [
     {
@@ -421,15 +423,22 @@ export const Events = () => {
       img5: "https://www.linkpicture.com/q/FB_IMG_1676440942294.jpg",
     },
   ];
+  const token = localStorage.getItem("token")
   return (
-    <div className="event-carousel-container">
-      {eventDetails.map((event,index) => {
-        return (
-          <div className="single-event-container" key={index}>
-            <EventsCarousel event={event} />
-          </div>
-        );
-      })}
+    <div>
+      {token ? <div className="new-post-cta">
+        <Link to="/create-post">Create Post</Link>
+      </div> : null}
+      <div className="event-carousel-container">
+
+        {eventDetails.map((event, index) => {
+          return (
+            <div className="single-event-container" key={index}>
+              <EventsCarousel event={event} />
+            </div>
+          );
+        })}
+      </div>
     </div>
   );
 };
