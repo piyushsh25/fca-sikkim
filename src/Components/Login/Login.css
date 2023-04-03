@@ -6,3 +6,9 @@
     min-height: 100vh;
     background-color: rgb(167, 224, 224);
 }
+.form-container{
+    background-color: #fff;
+    padding: 2rem;
+    border-radius: 8px;
+    border: 2px solid black;
+}

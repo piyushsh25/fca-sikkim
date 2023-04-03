@@ -2,6 +2,7 @@
  .App {
   background-color: #ffffff;
   height: auto;
+  min-height: 100vh;
 }
 a{
   text-decoration: none;

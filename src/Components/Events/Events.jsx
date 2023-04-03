@@ -400,9 +400,9 @@ export const Events = () => {
   ];
   return (
     <div className="event-carousel-container">
-      {eventDetails.map((event) => {
+      {eventDetails.map((event,index) => {
         return (
-          <div className="single-event-container">
+          <div className="single-event-container" key={index}>
             <EventsCarousel event={event} />
           </div>
         );
