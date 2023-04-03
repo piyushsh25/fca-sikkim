@@ -52,7 +52,8 @@ export const Footer = () => {
           <Link to="/">Home</Link> |<Link to="/about">About Us</Link> |
           <Link to="/events">Events</Link> |
           <Link to="/leadership">Leadership</Link>|{" "}
-          <Link to="/contact-us">Contact Us</Link>
+          <Link to="/contact-us">Contact Us</Link>|
+          <Link to="/login">Login</Link>
         </p>
         <p className="name"> FCA SIKKIM &copy; {year}</p>
       </div>
