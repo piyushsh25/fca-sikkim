@@ -7,7 +7,7 @@ export const LeadershipPage = () => {
       temure: "[2020 - 2021]",
       title: "President",
       about:
-        "He is a bureaucrat under Government of Sikkim. He worked as a General Secretary for a long time and initiated massive consumer rights drives till the time he was elevated as a President.",
+        "He is a bureaucrat under Government of Sikkim. He worked as a General Secretary from 2013 - 2019 and initiated massive consumer rights drives till the time he was elevated as a President.",
     },
     {
       name: "Smt. Jayshree Pradhan , IAS",
