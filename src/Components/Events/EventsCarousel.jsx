@@ -7,6 +7,7 @@ export function EventsCarousel({ event }) {
     const handleSelect = (selectedIndex, e) => {
         setIndex(selectedIndex);
     };
+    const token = localStorage.getItem("token")
     return (
         <div>
             <Carousel activeIndex={index} onSelect={handleSelect}>
@@ -93,13 +94,13 @@ export function EventsCarousel({ event }) {
                         <p>{event.description7}</p>
                     </Carousel.Caption>
                 </Carousel.Item> : null}
-                <div className='delete-post-cta'>
-                <button>
-                    delete
-                </button>
-            </div>
+                {token ? <div className='delete-post-cta'>
+                    <button>
+                        delete
+                    </button>
+                </div> : null}
             </Carousel>
-            
+
         </div>
     );
 }
