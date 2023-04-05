@@ -425,10 +425,11 @@ export const Events = () => {
   ];
   const token = localStorage.getItem("token")
   return (
-    <div>
-      {token ? <div className="new-post-cta">
-        <Link to="/create-post">Create Post</Link>
-      </div> : null}
+    <div className="event-page-div">
+      {token ? <div>
+        <Link className="new-post-cta" to="/create-post">
+          Create Post
+        </Link></div> : null}
       <div className="event-carousel-container">
 
         {eventDetails.map((event, index) => {

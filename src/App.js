@@ -9,6 +9,7 @@ import { EventPage } from './Pages/EventPage';
 import { Login } from './Pages/Login';
 import { ToastContainer } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
+import CreatePost from './Components/Events/CreatePost';
 function App() {
   return (
     <div className="App">
@@ -21,7 +22,7 @@ function App() {
           <Route path='/leadership' element={<Leadership />} />
           <Route path='/events' element={<EventPage />} />
           <Route path='/login' element={<Login />} />
-
+          <Route path="/create-post" element={<CreatePost/>}/>
         </Routes>
       </BrowserRouter>
     </div>
