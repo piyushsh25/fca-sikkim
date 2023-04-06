@@ -1,6 +1,6 @@
 import axios from "axios"
 import { toast } from "react-toastify"
-
+import { v4 as uuidv4 } from "uuid";
 export const poststate = {
     header1: "",
     header2: "",
@@ -54,19 +54,19 @@ export const reducerFunction = (state, action) => {
             return { ...state, description6: action.payload }
         case "setDescription7":
             return { ...state, description7: action.payload }
-        case "setImg1":
+        case "img1":
             return { ...state, img1: action.payload }
-        case "setImg2":
+        case "img2":
             return { ...state, img2: action.payload }
-        case "setImg3":
+        case "img3":
             return { ...state, img3: action.payload }
-        case "setImg4":
+        case "img4":
             return { ...state, img4: action.payload }
-        case "setImg5":
+        case "img5":
             return { ...state, img5: action.payload }
-        case "setImg6":
+        case "img6":
             return { ...state, img6: action.payload }
-        case "setImg7":
+        case "img7":
             return { ...state, img7: action.payload }
         default:
             return state
@@ -89,3 +89,41 @@ export const generateImg = async (e, dispatch, imgDispatch) => {
         imgDispatch({ type: actionType, for: actionType, payload: "error" })
     }
 }
+
+
+
+
+// image status function
+export const initialstate = {
+    // idle | pending | error | success
+    img1: "idle",
+    img2: "idle",
+    img3: "idle",
+    img4: "idle",
+    img5: "idle",
+    img6: "idle",
+    img7: "idle",
+  }
+ export const imgReducerFunction = (state, action) => {
+    switch (action.type) {
+      case action.for:
+        return { ...state, [action.for]: action.payload }
+      default:
+        return state
+    }
+  }
+
+// create post
+export const createPostHandler = async (e, state,navigate) => {
+    e.preventDefault()
+    try {
+      const uid = uuidv4()
+      const token = localStorage.getItem("token")
+      const data = { ...state, uid }
+      const response = await axios.post("https://fca-backend.onrender.com/post", data, { headers: { token: token } })
+      navigate("/events")
+      toast.success("Success Uploading event !")
+    } catch (err) {
+      toast.error(err.response.data.message)
+    }
+  }

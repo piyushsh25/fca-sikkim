@@ -1,5 +1,7 @@
+import axios from 'axios';
 import React, { useState } from 'react';
 import Carousel from 'react-bootstrap/Carousel';
+import { toast } from 'react-toastify';
 
 export function EventsCarousel({ event }) {
     const [index, setIndex] = useState(0);
@@ -8,6 +10,15 @@ export function EventsCarousel({ event }) {
         setIndex(selectedIndex);
     };
     const token = localStorage.getItem("token")
+    const deletePostHandler = async (e, event) => {
+        try {
+            const response = await axios.delete("https://fca-backend.onrender.com/post", { uid: event.uid }, { headers: { token } })
+            toast.success("Deleting Post Success !")
+        } catch (err) {
+            toast.error(err.response.data.message)
+        }
+    }
+
     return (
         <div>
             <Carousel activeIndex={index} onSelect={handleSelect}>
@@ -95,7 +106,7 @@ export function EventsCarousel({ event }) {
                     </Carousel.Caption>
                 </Carousel.Item> : null}
                 {token ? <div className='delete-post-cta'>
-                    <button>
+                    <button onClick={(e) => deletePostHandler(e, event)}>
                         delete
                     </button>
                 </div> : null}
