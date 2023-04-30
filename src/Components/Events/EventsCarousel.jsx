@@ -3,16 +3,17 @@ import React, { useState } from 'react';
 import Carousel from 'react-bootstrap/Carousel';
 import { toast } from 'react-toastify';
 
-export function EventsCarousel({ event }) {
+export function EventsCarousel({ event, setEventArray }) {
     const [index, setIndex] = useState(0);
-
     const handleSelect = (selectedIndex, e) => {
         setIndex(selectedIndex);
     };
     const token = localStorage.getItem("token")
     const deletePostHandler = async (e, event) => {
         try {
-            const response = await axios.delete("https://fca-backend.onrender.com/post", { uid: event.uid }, { headers: { token } })
+            console.log(event)
+            const response = await axios.post("https://fca-backend.onrender.com/post/delete/", { uid: event.uid }, { headers: { token: token } })
+            setEventArray(response.data.message)
             toast.success("Deleting Post Success !")
         } catch (err) {
             toast.error(err.response.data.message)
@@ -33,7 +34,7 @@ export function EventsCarousel({ event }) {
                         <p>{event.description1}</p>
                     </Carousel.Caption>
                 </Carousel.Item>
-                <Carousel.Item>
+                {event?.img2 ? <Carousel.Item>
                     <img
                         className="d-block w-100"
                         src={event.img2}
@@ -44,8 +45,8 @@ export function EventsCarousel({ event }) {
                         <h3>{event.header2}</h3>
                         <p>{event.description2}</p>
                     </Carousel.Caption>
-                </Carousel.Item>
-                <Carousel.Item>
+                </Carousel.Item> : null}
+                {event?.img3 ? <Carousel.Item>
                     <img
                         className="d-block w-100"
                         src={event.img3}
@@ -56,7 +57,7 @@ export function EventsCarousel({ event }) {
                         <h3>{event.header3}</h3>
                         <p>{event.description3}</p>
                     </Carousel.Caption>
-                </Carousel.Item>
+                </Carousel.Item> : null}
                 {event?.img4 ? <Carousel.Item >
                     <img
                         className="d-block w-100"

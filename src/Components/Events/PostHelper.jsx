@@ -103,27 +103,38 @@ export const initialstate = {
     img5: "idle",
     img6: "idle",
     img7: "idle",
-  }
- export const imgReducerFunction = (state, action) => {
+}
+export const imgReducerFunction = (state, action) => {
     switch (action.type) {
-      case action.for:
-        return { ...state, [action.for]: action.payload }
-      default:
-        return state
+        case action.for:
+            return { ...state, [action.for]: action.payload }
+        default:
+            return state
     }
-  }
+}
 
 // create post
-export const createPostHandler = async (e, state,navigate) => {
+export const createPostHandler = async (e, state, navigate) => {
     e.preventDefault()
     try {
-      const uid = uuidv4()
-      const token = localStorage.getItem("token")
-      const data = { ...state, uid }
-      const response = await axios.post("https://fca-backend.onrender.com/post", data, { headers: { token: token } })
-      navigate("/events")
-      toast.success("Success Uploading event !")
+        const uid = uuidv4()
+        const token = localStorage.getItem("token")
+        const data = { ...state, uid }
+        const response = await axios.post("https://fca-backend.onrender.com/post", data, { headers: { token: token } })
+        navigate("/events")
+        toast.success("Success Uploading event !")
     } catch (err) {
-      toast.error(err.response.data.message)
+        toast.error(err.response.data.message)
     }
-  }
+}
+export const getPostsHandler = async (setEventArray) => {
+    try {
+
+        const token = localStorage.getItem("token")
+        const response = await axios.get("https://fca-backend.onrender.com/post", { headers: { token: token } })
+        setEventArray(response.data.message)
+    } catch (err) {
+        toast.error(err.response.data.message)
+    }
+}
+
