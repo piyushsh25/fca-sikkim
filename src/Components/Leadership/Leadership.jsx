@@ -39,46 +39,10 @@ export const LeadershipPage = () => {
           <div className="about-leadership">
             <div className="leadership-name">Mr. Suresh Kumar Lama</div>
             <div className="leadership-title">President [2022 - Present]</div>
-            He worked as the Chief Coordinator (State) for FCAS and was later
-            elected as the President after 10 years of untiring effort in
-            conducting consumer awareness campaigns and advocacy across rural
-            and urban regions of Sikkim. He is currently the Director of
-            Citizens Urban Cooperative Bank Ltd. in Sikkim and is associated
-            with many social organizations in the state. Along with his
-            associate NGOs, he has done numerous humanitarian works and
-            supported many children's homes, old age homes, underprivileged
-            students, patients, etc. He led the team and volunteered to provide
-            essential commodities to the Nepal earthquake victims in 2015 under
-            the banner of #SikkimForNepal. His team distributed essential
-            commodities and apparel in the nine most damaged villages across
-            three districts of Nepal. Besides, he wholeheartedly contributed and
-            volunteered to support landslide victims of Dzongu, North Sikkim,
-            Yuksom, West Sikkim, Pathing, Yangang, South Sikkim, Pedong fire
-            victims of Kalimpong, West Bengal, and many other places of need in
-            the state and neighboring states of India. During the COVID-19
-            crisis in Sikkim, he and his Denz'93 (Alumni of Sikkim Government
-            College Batch of 1993) supported needy families of the state. He has
-            executed and volunteered in several Free Health Camps in the state
-            and is also a frequent blood donor. As the Founder of Sikkim Youth
-            Foundation, he started Kosis, an effort to build a self-reliant
-            society based on skill development training programs, which were
-            successfully conducted in Sawney village of Westpendam Constituency.
-            The participants benefitted from this social project. Due to the
-            COVID-19 pandemic, the project is currently on hold, but Kosis will
-            be implemented in different villages across Sikkim for drop-out
-            students and underprivileged housewives. He is also the Founder of
-            Sikkim Tamang Youth Society, which mainly focuses on community
-            development. The blog and page of STYS promote talents while
-            creating awareness of the history, traditions, and cultures of the
-            Tamang community. He is actively involved in the tourism sector and
-            has promoted multiple tourism-based festivals of Sikkim. He has also
-            represented Sikkim in national tourism festivals in different states
-            of India. He has been decorated with numerous felicitations around
-            the state and neighboring states by different organizations. In the
-            year 2022, he was honored with the Northeast Award in Social Service
-            from the hand of Shri Arun Haldar, Vice Chairman of the National
-            Commission of Scheduled Castes, Government of India, and Bollywood
-            Actress Mahima Choudhary in Mumbai, Maharashtra.
+            His remarkable journey encompasses a decade-long commitment as Chief Coordinator for FCAS, culminating in his presidency. Currently the Director of the Citizens Urban Cooperative Bank Ltd. in Sikkim, he extends his influence across diverse social organizations. His philanthropic endeavors, spanning support for earthquake victims in Nepal to aiding local communities in Sikkim and neighboring states, showcase his unwavering dedication.
+            Amid the challenges of the COVID-19 crisis, he, alongside Denz'93 group, provided crucial assistance to struggling families in Sikkim. A prominent figure in humanitarian efforts, he actively engages in Free Health Camps and consistently contributes as a blood donor. Founding the Sikkim Youth Foundation, he initiated Kosis, empowering communities through skill development programs, exemplified in the successful implementation in Sawney village. Despite a temporary hiatus due to the pandemic, Kosis aims to reach more villages, aiding drop-out students and underprivileged housewives.
+            His commitment extends to community development through the Sikkim Tamang Youth Society, promoting Tamang culture, history, and traditions. His active involvement in Sikkim's tourism sector, including representation in national tourism festivals, underscores his dedication to showcasing the state's vibrancy.
+            Recognized for his outstanding contributions, Suresh received the prestigious Northeast Award in Social Service in 2022. The honor, presented by Hon'ble Vice Chairman,  National Commission of Scheduled Caste, Government of India, Shri Arun Haldar and Bollywood Actress Mahima Choudhary in Mumbai, Maharastra, reflects his impactful leadership and selfless service . He stands as an inspiring figure, leaving an indelible mark on Sikkim's social and humanitarian landscape.
           </div>
         </div>
       </div>
